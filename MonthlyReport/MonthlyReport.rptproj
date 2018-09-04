@@ -9,12 +9,8 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
-      <Name>DataSet1.rsd</Name>
-      <FullPath>DataSet1.rsd</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>NewDataSet.rsd</Name>
-      <FullPath>NewDataSet.rsd</FullPath>
+      <Name>DataSet.rsd</Name>
+      <FullPath>DataSet.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports />
