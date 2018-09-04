@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>CREATE TABLE [dbo].[DimDate]( 
+	[Date_SK] [INT] IDENTITY (1,1) NOT NULL PRIMARY KEY,
+	[Year] INT NOT NULL UNIQUE, 
+	[Quarter] INT NOT NULL,
+	[QuarterName] NVARCHAR (50) NOT NULL,
+	[Month] INT NOT NULL, 
+	[MonthName] NVARCHAR (50) NOT NULL, 
+	[Date] DATETIME NOT NULL UNIQUE, 
+	[Season] NVARCHAR (6) NOT NULL, 
+)
+GO
+	
+	
+	
+	---
+
+Date
+Day of Week
+Day of Month
+Season
+</CommandText>
+    </Query>
+  </DataSet>
+</SharedDataSet>
